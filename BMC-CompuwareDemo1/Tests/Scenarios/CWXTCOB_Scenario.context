@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.CWC2.FTS4.DEV1.LOAD</Value>
+      <Value>DSNC10.DSC2.SDSNEXIT</Value>
+      <Value>DSNC10.SDSNLOAD</Value>
+      <Value>SALESSUP.CWC2.FTS4.DEV1.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
