@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b5089c9787be73b59238d35" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData />
-  <ExtensionData componentName="cwxtcob" componentId="">
+  <ExtensionData componentName="cwxtcob" componentId="5cbe001d1807420143ec6239">
     <Parameter key="sourcelibrary">
       <Value>SALESSUP.CWC2.FTS4.DEV1.LOAD</Value>
     </Parameter>

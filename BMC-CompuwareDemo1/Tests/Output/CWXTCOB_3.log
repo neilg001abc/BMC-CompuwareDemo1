@@ -1,0 +1,42 @@
+20:59:57.257 INFO      TOPAZ            ***************************************
+20:59:57.258 INFO      TOPAZ            ** Execution from Topaz with options **
+20:59:57.258 INFO      TOPAZ            ***************************************
+20:59:57.258 INFO      TOPAZ            Using repository: true
+20:59:57.259 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+20:59:57.259 INFO      TOPAZ            ***************************************
+20:59:57.259 INFO      Engine           Test Scenario execution started
+20:59:57.260 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b5089c9787be73b59238d35
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HAUNXG0
+  Use Repository Server         : false
+20:59:57.260 INFO      Engine           Setting variables from context and context data extensions
+20:59:57.260 INFO      Engine             id: environmentId      value: 5b5089c9787be73b59238d35
+20:59:57.260 INFO      Engine             id: environmentType    value: BATCH
+20:59:57.260 INFO      Engine             id: userId             value: HAUNXG0
+20:59:57.261 INFO      Engine             id: accountingInfo     value: 
+20:59:57.261 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+20:59:57.264 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+20:59:57.616 INFO      HCIClient        Creating job directory /u/xatester/haunxg0/5457d4ae050f489eb68d2487b7a35620
+21:00:00.923 INFO      HCIClient        Job has been started at host with JobId:J0105915
+21:00:08.023 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job HAUNXG0E(J0105915) ended with ABEND code: 
+  Job name       : HAUNXG0E
+  Job id         : J0105915
+  Return code    : 
+  Abend code     : 
+  Abend reason   : 
+21:00:08.403 ERROR     Engine           Unable to execute the module:CWXTCOB at the host. Unable to execute at server. Job abended
+21:00:08.403 ERROR     Engine           An error occurred. Now stopping the execution.
+21:00:08.404 INFO      Engine           Test Scenario execution ended
