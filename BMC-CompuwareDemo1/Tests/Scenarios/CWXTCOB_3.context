@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b5089c9787be73b59238d35" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b5089c9787be73b59238d35" logLevel="INFO" remote="false" useSimulations="true" uploadResult="true" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData />
   <ExtensionData componentName="cwxtcob" componentId="602c3c2c1807420043bfbc2e">
     <Parameter key="sourcelibrary">
