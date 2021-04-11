@@ -4,8 +4,8 @@
     <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
       <Data>
         <parminfo>
-          <parm-lth />
-          <parm-data />
+          <parm-lth>5</parm-lth>
+          <parm-data>00003</parm-data>
         </parminfo>
       </Data>
     </Component>
