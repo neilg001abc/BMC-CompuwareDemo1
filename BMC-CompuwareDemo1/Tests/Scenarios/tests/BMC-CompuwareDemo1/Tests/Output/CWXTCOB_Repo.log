@@ -1,0 +1,44 @@
+08:10:01.679 INFO      TOPAZ            ***************************************
+08:10:01.681 INFO      TOPAZ            ** Execution from Topaz with options **
+08:10:01.681 INFO      TOPAZ            ***************************************
+08:10:01.682 INFO      TOPAZ            Using repository: true
+08:10:01.682 INFO      TOPAZ            Repository URL: http://cwc2.nasa.cpwr.corp:2020/totaltestapi/
+08:10:01.683 INFO      TOPAZ            ***************************************
+08:10:01.691 INFO      Engine           Test Scenario execution started
+08:10:01.692 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : CWC2-ISPW-GIT
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWC2
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HAUNXG0
+  Use Repository Server         : true
+08:10:01.692 INFO      Engine           Setting variables from context and context data extensions
+08:10:01.692 INFO      Engine             id: environmentId      value: CWC2-ISPW-GIT
+08:10:01.693 INFO      Engine             id: environmentType    value: BATCH
+08:10:01.693 INFO      Engine             id: userId             value: HAUNXG0
+08:10:01.693 INFO      Engine             id: accountingInfo     value: 
+08:10:01.714 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+08:10:01.758 INFO      CWC2-ISPW-GIT    Sending Module execution request to Host for module:CWXTCOB rollback:false
+08:10:02.051 INFO      HCIClient        Creating job directory /u/xatester/haunxg0/d3360ad73a6f4a58b52a27f3f3f91baa
+08:10:04.552 INFO      HCIClient        Job has been started at host with JobId:J0130636
+08:10:11.741 INFO      CWC2-ISPW-GIT    Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HAUNXG0E(J0130636) ended with return code: 0000
+  Job name       : HAUNXG0E
+  Job id         : J0130636
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+08:10:12.246 INFO      CWC2-ISPW-GIT    Component completed with program exit: +0
+08:10:12.771 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+08:10:13.297 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+08:10:13.298 INFO      Component        Finished interpreting Component: CWXTCOB program:CWXTCOB
+08:10:13.299 INFO      Engine           Test Scenario execution ended

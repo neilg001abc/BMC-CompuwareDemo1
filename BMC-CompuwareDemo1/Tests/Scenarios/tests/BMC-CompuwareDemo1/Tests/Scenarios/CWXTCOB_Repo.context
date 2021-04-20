@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="CWC2-ISPW-GIT" logLevel="INFO" remote="false" useSimulations="true" uploadResult="true" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" repositoryId="60388b3918074200e864cb30">
+  <ExtensionData />
+  <ExtensionData componentName="cwxtcob" componentId="602c3c2c1807420043bfbc2e" />
+  <XaUnit path="CWXTCOB_Repo.scenario" />
+</ExecutionContext>
